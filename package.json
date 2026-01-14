@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@prisma/client": "^7.2.0",
     "@supabase/supabase-js": "^2.90.1",
     "bcryptjs": "^3.0.3",
     "cors": "^2.8.5",
@@ -18,7 +19,8 @@
     "express": "^5.2.1",
     "helmet": "^8.1.0",
     "jsonwebtoken": "^9.0.3",
-    "morgan": "^1.10.1"
+    "morgan": "^1.10.1",
+    "prisma": "^6.19.2"
   },
   "devDependencies": {
     "@types/bcryptjs": "^2.4.6",
