@@ -1,0 +1,16 @@
+
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model cardsInfo {
+  id Int @id @default(autoincrement())
+  title String
+  body String
+  background String
+}
